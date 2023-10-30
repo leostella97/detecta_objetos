@@ -14,3 +14,6 @@ Aplicação simples de <code>visão computacional</code> em Python. Ele permite 
 
 Teste de detecção de rosto
 <img src="https://github.com/leostella97/detecta_objetos/blob/main/img/rosto_detectado.png?raw=true">
+
+## Dúvidas
+• <b>Canvas</b> é uma matriz bidimensional de pixels, que podem ser usados para representar imagens, gráficos e texto.<br>Ele também pode ser usado para armazenar dados de outras formas, como pontos, linhas e formas.
