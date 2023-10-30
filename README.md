@@ -38,6 +38,19 @@ A classe <b>VisaoComputacional</b> é a <i>classe principal</i> da aplicação. 
 	</ul>
 </table>
 
+## Método init(self, root)
+
+O método construtor da classe <b>VisaoComputacional</b> inicia os seguintes componentes da <i>interface gráfica</i>:
+
+<table>
+	<ul>
+		<li>Um botão para carregar uma imagem.</li>
+		<li>Um botão para iniciar a webcam.</li>
+		<li>Uma etiqueta para exibir o resultado do processamento da imagem.</li>
+		<li>Um <a href="https://github.com/leostella97/detecta_objetos#d%C3%BAvidas">canvas (?)</a> para exibir a imagem processada.</li>
+	</ul>
+</table>
+
 ## Teste de detecção de rosto
 <img src="https://github.com/leostella97/detecta_objetos/blob/main/img/rosto_detectado.png?raw=true">
 
