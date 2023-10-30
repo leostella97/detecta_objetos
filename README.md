@@ -20,7 +20,7 @@ O código começa importando as seguintes bibliotecas:
 		<li><code>tkinter</code>: Biblioteca Tkinter, que fornece uma interface gráfica para Python.</li>
 		<li><code>filedialog</code>: Módulo da biblioteca Tkinter que permite selecionar arquivos do sistema de arquivos.</li>
 		<li><code>Image</code>: Módulo da biblioteca PIL que permite trabalhar com imagens.</li>
-		<li><code>ImageTk</code> Módulo da biblioteca PIL que permite converter imagens para o formato PhotoImage, que pode ser usado no canvas do Tkinter.</li>:
+		<li><code>ImageTk</code>: Módulo da biblioteca PIL que permite converter imagens para o formato PhotoImage, que pode ser usado no canvas do Tkinter.</li>
 	</ul>
 </table>
 
