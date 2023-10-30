@@ -56,5 +56,9 @@ O método construtor da classe <b>VisaoComputacional</b> inicia os seguintes com
 
 Também define o modelo de visão computacional como um classificador Haarcascades, que é um modelo de aprendizado de máquina que pode ser usado para detectar objetos em imagens.
 
+## Método carregar_imagem(self)
+
+O método <b>carregar_imagem(self)</b> abre um diálogo de arquivo para permitir que o usuário <i>selecione uma imagem</i>. Depois que o usuário seleciona uma imagem, o método <i>carrega a imagem</i> usando a biblioteca <b>OpenCV</b>.
+
 ## Dúvidas
 • <b>Canvas</b> é uma matriz bidimensional de pixels, que podem ser usados para representar imagens, gráficos e texto.<br>Ele também pode ser usado para armazenar dados de outras formas, como pontos, linhas e formas.
