@@ -55,6 +55,19 @@ O método construtor da classe <b>VisaoComputacional</b> inicia os seguintes com
 
 O método <b>carregar_imagem(self)</b> abre um diálogo de arquivo para permitir que o usuário <i>selecione uma imagem</i>. Depois que o usuário seleciona uma imagem, o método <i>carrega a imagem</i> usando a biblioteca <b>OpenCV</b>.
 
+## Método iniciar_webcam(self)
+
+O método <b>iniciar_webcam(self)</b> inicia a webcam. O método usa a biblioteca <b>OpenCV</b> para <i>capturar imagens da webcam</i>.
+
+## Método processar_imagem(self, imagem)
+
+O método <b>processar_imagem(self, imagem)</b> processa uma imagem usando o modelo de visão computacional. O método específico de processamento é definido no método.
+
+## Método mostrar_resultado(self, resultado)
+
+O método <b>mostrar_resultado(self, resultado)</b> exibe o resultado do processamento da imagem. O método converte a imagem para o formato RGB, que é o formato suportado pelo <a href="https://github.com/leostella97/detecta_objetos#d%C3%BAvidas">canvas (?)</a> do Tkinter. Em seguida, o método cria uma imagem PhotoImage a partir da imagem convertida. Por fim, o método atualiza o canvas para exibir a imagem processada.
+
+
 ## Teste de detecção de rosto
 <img src="https://github.com/leostella97/detecta_objetos/blob/main/img/rosto_detectado.png?raw=true">
 
