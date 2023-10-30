@@ -24,6 +24,17 @@ O código começa importando as seguintes bibliotecas:
 	</ul>
 </table>
 
+## Classe VisaoComputacionalApp
+
+A classe <b>VisaoComputacional</b> é a <i>classe principal</i> da aplicação. Ela contém os seguintes métodos:
+
+<table>
+	<ul>
+	<li><code>__init__(self, root)</code>: Método construtor da classe. Inicializa os componentes da interface gráfica e define o modelo de visão computacional.</li>
+	<li><code>carregar_imagem(self)</code>: Método que carrega uma imagem do sistema de arquivos.</li>
+	<li><code>iniciar_webcam(self)</code>: Método que inicia a webcam.</li>
+	<li><code>processar_imagem(self, imagem)</code>: Método que processa uma imagem usando o modelo de visão computacional.</li>
+	<li><code>mostrar_resultado(self, resultado)</code>: Método que exibe o resultado do processamento da imagem.</li>
 
 ## Teste de detecção de rosto
 <img src="https://github.com/leostella97/detecta_objetos/blob/main/img/rosto_detectado.png?raw=true">
