@@ -25,7 +25,7 @@ O código começa importando as seguintes bibliotecas:
 </table>
 
 
-Teste de detecção de rosto
+## Teste de detecção de rosto
 <img src="https://github.com/leostella97/detecta_objetos/blob/main/img/rosto_detectado.png?raw=true">
 
 ## Dúvidas
