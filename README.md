@@ -24,7 +24,7 @@ O código começa importando as seguintes bibliotecas:
 	</ul>
 </table>
 
-## Classe VisaoComputacionalApp
+## Classe VisaoComputacional
 
 A classe <b>VisaoComputacional</b> é a <i>classe principal</i> da aplicação. Ela contém os seguintes métodos:
 
@@ -53,6 +53,8 @@ O método construtor da classe <b>VisaoComputacional</b> inicia os seguintes com
 
 ## Teste de detecção de rosto
 <img src="https://github.com/leostella97/detecta_objetos/blob/main/img/rosto_detectado.png?raw=true">
+
+Também define o modelo de visão computacional como um classificador Haarcascades, que é um modelo de aprendizado de máquina que pode ser usado para detectar objetos em imagens.
 
 ## Dúvidas
 • <b>Canvas</b> é uma matriz bidimensional de pixels, que podem ser usados para representar imagens, gráficos e texto.<br>Ele também pode ser usado para armazenar dados de outras formas, como pontos, linhas e formas.
